@@ -8,8 +8,8 @@ require('./server/models/models');
 var postAPI = require('./server/api/postAPI');
 var commentAPI = require('./server/api/commentAPI');
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/reduxstagram');
+// var mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost:27017/reduxstagram');
 
 var app = express();
 var compiler = webpack(config);
